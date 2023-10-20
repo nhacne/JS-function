@@ -1,0 +1,80 @@
+<!--Viết chương trình hiển thị giá và số lượng sản phẩm.
+    Tính ra tổng tiền. Nếu số tiền >=100 thì hiển thị màu xanh,
+    nếu <100 thì hiển thị màu đỏ. Nếu số tiền >=100 thì giảm giá 5%,
+    còn nhỏ hơn thì ko giảm giá.  -->
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Yoko's Kitchen</title>
+        <link rel="stylesheet" href="btvn.css">
+    </head>
+    <body>
+    <div class="wrapper">
+        <h1 id="kitchen">Nhac's Kitchen</h1>
+        <div class="time">
+            <p id="time0">TIME</p>
+            <p id="hi">Hello</p>
+        </div>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="#" class="current">Home</a></li>
+                    <li><a href="#">Classes</a></li>
+                    <li><a href="#">Catering</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section class="courses">
+            <article>
+                <figure>
+                    <img width="300" src="image/gettyimages-1134067307-1024x1024.jpg" alt="Okonomiyaki"/>
+                    <figcaption>Okonomiyaki</figcaption>
+                </figure>
+                <hgroup>
+                    <h2 class="menu">Okonomiyaki ( 10 $ )</h2>
+                    <ul>
+                        <li>Amount : 12 slots </li>
+                        <li class="oko">Pay : 120 $</li>
+                    </ul>
+
+                </hgroup>
+            </article>
+            <article>
+                <figure>
+                    <img width="300" src="image/th.jfif" alt="teriyaki sauce" />
+                    <figcaption>Yakitori</figcaption>
+                </figure>
+                <hgroup>
+                    <h2 class="menu">Yakitori (20 $ )</h2>
+                    <ul>
+                        <li>Amount :3 slots</li>
+                        <li class="yaki">Pay : 60$</li>
+                    </ul>
+                </hgroup>
+            </article>
+        </section>
+        <aside>
+            <section class="popular-recipes">
+                <h2>Popular-Recipes</h2>
+                <a href="#">Yakitori (grilled chicken)</a>
+                <a href="#">Tsukune (minced chicken patties)</a>
+                <a href="#">Okonomiyaki (savory pancakes)</a> 
+            </section>
+            <section class="Contact-details">
+                <h2>Contact</h2>
+                <p>Nhac's Kitchen <br/>
+                    27 Redchurch Street <br/>
+                    Shoreditch <br/>
+                    London E2 7DP</p>
+            </section>
+        </aside>
+        <footer>
+           @ 2023 Nhac's Kitchen
+        </footer>
+    </div>
+    <script src="btvn.js"></script>
+    </body>
+    </html>
